@@ -4,23 +4,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="wapp.css">
+    <!-- <script src="wapp.js"></script> -->
+    <script src="testwapp.js"></script>
+    
 </head>
 <body>
-    <section>
+   
 
-        <div class="main">
-
-            <h1 id="inputcity" >Location </h1> 
-            <input type="text" id="inputcity" placeholder="Enter City Name"> 
-            <button type ="submit"    id="inputcity"> Submit</button>
+        <div id="main">
+            
+              <h1>Wheather App</h1>
+            <input type="text"    id="inputcity" placeholder=" Enter name of City "> 
+            <button type ="submit" onclick="showweather()"  > Submit</button>
+            
         </div>
-
         <div class="wrapper">
-
-
-
+<image src='' class="wimg"></image>
+   <div class="tempdeatail"></div>
+   <div class="weatherdeatail"></div>
+   <div class="weatherinfo"></div>
+   <div class="hourlyinfo"></div>
         </div>
-    </section>
+
+       
+    
 </body>
 </html>
